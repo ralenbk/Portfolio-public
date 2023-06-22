@@ -477,18 +477,26 @@ span {
     width: 70%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-    width: 30%;
+    width: 50%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
-    width: 50%;
+    width: 60%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
     width: 100%;
 }
 
+.project-video{
+    border-top: solid #00abf0 1px;
+    padding-top: 10px;
+}
+.projects h3{
+    font-size: 4rem;
+}
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
+    background-color: var(--second-bg-color);
 }
 
 .contact form{
@@ -533,7 +541,7 @@ span {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--second-bg-color);
+    background: var(--main-color);
     border-radius: .6rem;
     z-index: -1;
     transition: .5s;
@@ -564,7 +572,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text p {
