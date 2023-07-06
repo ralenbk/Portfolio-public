@@ -87,7 +87,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/images/fondo.jpg');
+    background: url('/Portfolio/images/fondo.jpg');
     background-repeat: no repeat;
     background-size: cover;
     background-position:center ;
@@ -486,9 +486,10 @@ span {
     width: 100%;
 }
 
-.project-video{
+.project{
     border-top: solid #00abf0 1px;
-    padding-top: 10px;
+    border-bottom: solid #00abf0 1px;
+    padding-top: 0;
 }
 .projects h3{
     font-size: 4rem;
@@ -755,6 +756,10 @@ span {
         margin-top: 2rem;
         text-align: center;
     }
+    .project {
+        height: 280;
+        width: 320;
+    }
 }
 
 @media (max-width:371px) {
@@ -771,6 +776,10 @@ span {
 
     .home-content h1 {
         font-size: 5rem;
+    }
+    .project {
+        height: 280;
+        width: 320;
     }
 }
 
