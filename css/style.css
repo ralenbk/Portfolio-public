@@ -756,10 +756,6 @@ span {
         margin-top: 2rem;
         text-align: center;
     }
-    .project {
-        height: 280;
-        width: 320;
-    }
 }
 
 @media (max-width:371px) {
@@ -776,10 +772,6 @@ span {
 
     .home-content h1 {
         font-size: 5rem;
-    }
-    .project {
-        height: 280;
-        width: 320;
     }
 }
 
