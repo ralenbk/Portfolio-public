@@ -790,13 +790,13 @@ span {
 
     @keyframes homeCursorText {
         0%,
-         10%,
-          100% {
+        10%,
+        100% {
             width: 0;
         }
         65%,
         78%,
-         85% {
+        85% {
             width: 100%;
             opacity: 1;
         }
