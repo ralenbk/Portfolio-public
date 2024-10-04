@@ -104,7 +104,6 @@ ul {
     display: flex;
     align-items: center;
     gap: 5px;
-    border: 1px solid rgb(219, 219, 219);
     position: relative;
     padding: 10px;
 }
@@ -132,23 +131,16 @@ ul {
     background-color: #112e42;
 }
 .idiomas li a:hover {
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(60, 53, 91);
 }
 .idiomas li img{
     border-radius: 50%;
 }
 
 /* TOOGLE  - js*/
-
 .toggle { 
     visibility: visible;
 }
-
-
-
-
-
-
 
 .home {
     display: flex;
@@ -555,11 +547,11 @@ span {
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-    width: 50%;
+    width: 100%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-    width: 70%;
+    width: 100%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
     width: 50%;

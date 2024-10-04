@@ -29,7 +29,7 @@
         <div class="translate">
             <a href="#" class="idioma" id="idioma">
                 <img src="" alt="Icono Banderas">
-                <img src="./images/bottom.png" alt="Icono Español">
+                <img src="./images/bottom-white.png" alt="Icono flecha">
             </a>
             <ul class="idiomas" id="idiomas">
                 <li class="opcion"><a class="a-idiomas" href="#">
@@ -54,16 +54,14 @@
 
     <section class="home" id="home">
         <div class="home-content">
-            <h1>Hi, I'm <span>Ramiro Cavallero</span></h1>
+            <h1 id="yo-soy"><span>Ramiro Cavallero</span></h1>
             <div class="text-animate">
                 <h3>Fullstack Developer</h3>
             </div>
-            <p>This portfolio showcases my ability to create high-quality, end-to-end solutions for complex problems.
-            Each project is user-focused and has an intuitive, well-designed approach, demonstrating my ability to create effective and efficient web applications.
-            </p>
+            <p id="desc-first"></p>
             <div class="btn-box">
-                <a href="#contact" class="btn">Hire Me</a>
-                <a href="#contact" class="btn">Let's Talk</a>
+                <a href="#contact" class="btn" id="contratame"></a>
+                <a href="#contact" class="btn" id="hablemos"></a>
             </div>
         </div>
 
@@ -77,7 +75,7 @@
     <!-- about section -->
     
     <section class="about" id="about">
-        <h2 class="heading">About <span>Me</span></h2>
+        <h2 class="heading" id="about-me"></h2>
 
         <div class="about-img">
             <img src="./images/aboutme.jpg" alt="About Me image">
@@ -86,52 +84,43 @@
 
         <div class="about-content">
             <h3>Full Stack Developer!</h3>
-            <p>I am a passionate Full Stack Developer who loves to create innovative technological solutions.
-                My experience in building web and mobile applications, along with my proficiency in programming languages and frameworks, allows me to build scalable and high-performance solutions.
-                I am committed to continuous improvement and constant learning to stay up-to-date with the latest technological trends.
-            </p>
+            <p id="desc-two"></p>
 
             <div class="btn-box btns">
-                <a href="#" class="btn">Read More</a>
+                <a href="#skills" class="btn" id="read-more"></a>
             </div>
         </div>
     </section>
     <!-- education section -->
 
     <section class="education" id="education">
-        <h2 class="heading">My <span>Journey</span></h2>
+        <h2 class="heading" id="my-journey"></h2>
 
         <div class="education-row">
             <div class="education-column">
-                <h3 class="title">Education</h3>
+                <h3 class="title" id="education-two"></h3>
                 <div class="education-box">
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i>2022 - 2023</div>
-                            <h3>Auxiliary Technician in Programming - Teclab</h3>
-                            <p>The Technical Assistant in Programming program provides fundamental knowledge of programming languages, algorithms, and software development methodologies.
-
-                            </p>
+                            <h3 id="tecnico-aux-titulo"></h3>
+                            <p id="desc-teclab-aux"></p>
                         </div>
                     </div>
 
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i>2023 - 2024</div>
-                            <h3>Superior Technician in Programming - Teclab</h3>
-                            <p>The Superior Technician in Programming program provides advanced knowledge of programming languages, software architecture, and project management methodologies.
-
-                            </p>
+                            <h3 id="tecnico-titulo"></h3>
+                            <p id="desc-teclab-titulo"></p>
                         </div>
                     </div>
 
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i>2023 - 2024</div>
-                            <h3>Complete Web Development - Udemy</h3>
-                            <p>Fullstack Web Development course covers HTML, CSS, JavaScript,  AJAX PHP y MySQL and popular frameworks for building scalable and responsive web applications.
-
-                            </p>
+                            <h3 id="titulo-udemy"></h3>
+                            <p id="desc-udemy"></p>
                         </div>
                     </div>
 
@@ -140,13 +129,13 @@
             </div>
 
             <div class="education-column">
-                <h3 class="title">Experience</h3>
+                <h3 class="title" id="experience-section"></h3>
                 <div class="education-box">
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i>2023 - 2024</div>
-                            <h3>Web Developer - Freelance</h3>
-                            <p>I design and develop custom websites for clients, delivering tailored solutions that meet their unique business needs as a freelance web developer.</p>
+                            <h3 id="freelance"></h3>
+                            <p id="freelance-desc"></p>
                         </div>
                     </div>
 
@@ -159,11 +148,11 @@
     <!-- skills section -->
 
 <section class="skills" id="skills">
-    <h2 class="heading">My <span>Skills</span></h2>
+    <h2 class="heading" id="my-skills"></h2>
 
     <div class="skills-row">
         <div class="skills-column">
-            <h3 class="title">Coding Skills</h3>
+            <h3 class="title" id="coding-skills"></h3>
 
             <div class="skills-box">
                 <div class="skills-content">
@@ -193,32 +182,32 @@
         </div>
 
         <div class="skills-column">
-            <h3 class="title">Professional Skills</h3>
+            <h3 class="title" id="prof-skills"></h3>
 
             <div class="skills-box">
                 <div class="skills-content">
                     <div class="progress">
-                        <h3>Web Design <span>50%</span></h3>
+                        <h3 id="web-design"> <span>50%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
 
                     <div class="progress">
-                        <h3>Web Development <span>70%</span></h3>
+                        <h3 id="web-development"> <span>70%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
 
                     <div class="progress">
-                        <h3>English <span>50%</span></h3>
+                        <h3 id="enlgish-capabilites"> <span>50%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
 
                     <div class="progress">
-                        <h3>Portuguese <span>60%</span></h3>
+                        <h3 id="portugues-capabilites"> <span>60%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
 
                     <div class="progress">
-                        <h3>Spanish <span>100%</span></h3>
+                        <h3 id="spanish-capabilites"><span>100%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
 
@@ -229,18 +218,18 @@
     </div>
 </section>
 <section class="education" id="projects">
-    <h2 class="heading">My <span>Developments</span></h2>
+    <h2 class="heading" id="my-developments"></h2>
 
     <div class="education-row">
         <div class="projects">
-            <h3 class="heading">Online Store</h3>
+            <h3 class="heading" id="online-store"></h3>
             <div class="project">
                 <a href="https://sahumotime.store">
                     <video autoplay loop height="380" width="420">
                     <source src="./images/Tienda.mp4" type="video/mp4">
                     </video>
                 </a>
-                <button class="ver-mas"><a href="https://sahumotime.store">Visitar Sitio</a></button>
+                <button class="ver-mas"><a href="https://sahumotime.store" id="visit-v1"></a></button>
             </div>
             <h3 class="heading">Landing Page</h3>
             <div class="project">
@@ -249,7 +238,7 @@
                     <source src="./images/bkdinnovate.mp4" type="video/mp4">
                     </video>
                 </a>
-                <button class="ver-mas"><a href="https://bkinnovate.com">Visitar Sitio</a></button>
+                <button class="ver-mas"><a href="https://bkinnovate.com" id="visit-v2"></a></button>
             </div>
         </div>
     </div>
@@ -258,7 +247,7 @@
 
 <section class="contact" id="contact">
 
-    <h2 class="heading">Contact <span>Me!</span></h2>
+    <h2 class="heading" id="contact-me"></h2>
 
     <form action="#">
         <div class="input-box">
@@ -288,7 +277,7 @@
         <span class="focus"></span>
     </div>
     <div class="btn-box btns">
-        <button type="submit" class="btn">Submit</button>
+        <button type="submit" class="btn" id="submit-form"></button>
     </div>
     </form>
 </section>
@@ -298,7 +287,7 @@
 
 <footer class="footer">
     <div class="footer-text">
-        <p>Copyright &copy; 2023 by Ramiro Cavallero | All Rights Reserved.  </p>
+        <p id="derechos"></p>
     </div>
     <div class="footer-iconTop">
         <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
